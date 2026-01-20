@@ -1185,3 +1185,58 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Badge Certifications
+--------------------------------------------------------------*/
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  margin-right: 6px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.cert-badge i {
+  font-size: 14px;
+}
+
+/* Category colors */
+.badge-cloud { color: #47aeff; }
+.badge-ml { color: #29cc61; }
+.badge-aws { color: #ff9900; }
+.badge-data { color: #e361ff; }
+
+
+.cert-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.cert-meta h5 {
+  margin: 0;
+}
+
+.cert-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.badge-cloud { color: #47aeff; }
+.badge-ml { color: #29cc61; }
+.badge-aws { color: #ff9900; }
+.badge-data { color: #e361ff; }
